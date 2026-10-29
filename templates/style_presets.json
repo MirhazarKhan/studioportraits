@@ -35,6 +35,15 @@
     "cfg_scale": 7.0,
     "steps": 35
   },
+  "editorial_monochrome_knit": {
+    "name": "Fine-Art Monochrome Studio (Waffle Knit & Folded Arms)",
+    "description": "Sophisticated black-and-white editorial portrait featuring waffle-knit crewneck sweater, classic crossed arms pose, and soft sculptural studio lighting.",
+    "prompt_template": "High-end black-and-white studio editorial portrait of {subject_name}, {biometric_description}. Frontal waist-up composition, arms naturally folded across chest with relaxed hands resting against outer biceps. Wearing a textured charcoal waffle-knit crewneck sweater with ribbed cuffs and collar. Luminous low-key Rembrandt studio lighting sculpting cheekbones and jawline, deep velvety blacks with smooth tonal transitions. Neutral smooth grey studio wall backdrop with soft ambient vignette. Shot on Leica M Monochrom with 50mm f/1.4 lens, fine Kodak Tri-X silver gelatin grain, pin-sharp focus on irises, masterclass editorial photography, 8k.",
+    "negative_prompt": "color, sepia, distorted hands, extra fingers, malformed fingers, plastic skin, oversaturated, blurry, bad anatomy, cartoon, 3d render",
+    "recommended_aspect_ratio": "4:5",
+    "cfg_scale": 7.0,
+    "steps": 35
+  },
   "editorial_forbes": {
     "name": "Bespoke Executive / Forbes Editorial",
     "description": "High-powered corporate editorial portrait with sharp bespoke tailoring and high-rise architectural backdrop.",
@@ -60,6 +69,15 @@
     "negative_prompt": "daylight, sunny, cartoon, flat, washed out, amateur, bad anatomy",
     "recommended_aspect_ratio": "16:9",
     "cfg_scale": 8.0,
+    "steps": 40
+  },
+  "dualtone_crimson_cyan": {
+    "name": "Cinematic Dual-Tone Studio (Crimson & Cyan Rim)",
+    "description": "Moody low-key cinematic portrait with dramatic split crimson-red and cyan-blue rim lighting against an inky black background, high popped coat collar, white t-shirt, and silver chain necklace.",
+    "prompt_template": "Dramatic cinematic low-key studio portrait of {subject_name}, {biometric_description}. Bust composition with high popped-collar dark overcoat, crisp white crewneck t-shirt, and delicate thin silver chain necklace. Intense split bi-color rim lighting: cool neon cyan edge lighting sculpting jawline and neck on one side, and rich crimson scarlet rim light highlighting hair texture and temple on the other. Velvety pure black background, razor-sharp focus on deep-set dark eyes, subtle catchlights, shallow depth of field, 85mm f/1.4 lens, 8k resolution, raw editorial masterclass.",
+    "negative_prompt": "bright background, daylight, washed out, cartoon, 3d render, oversaturated skin, flat lighting, blurry, bad anatomy",
+    "recommended_aspect_ratio": "4:5",
+    "cfg_scale": 7.5,
     "steps": 40
   },
   "passport_biometric": {

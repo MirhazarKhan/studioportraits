@@ -127,6 +127,8 @@ python main.py generate --style studio_monochrome --profile outputs/subject/faci
 | `vinyl_toy_tan` | **3D Minimalist Vinyl Toy (Designer Tan)** | `1:1` | Cute designer collectible figurine, smooth matte tan clay finish, soft lightbox illumination, Octane render. |
 | `vinyl_toy_porcelain` | **3D Minimalist Vinyl Toy (Porcelain)** | `1:1` | Scandinavian minimalism, smooth matte porcelain and frosted resin finish, neutral off-white studio. |
 | `studio_monochrome` | **Cinematic Low-Key Studio** | `4:5` | Timeless black-and-white fine art, dramatic Rembrandt split lighting, silver gelatin tonal range, Leica M Monochrom. |
+| `editorial_monochrome_knit` | **Fine-Art Monochrome Studio (Waffle Knit)** | `4:5` | Folded-arms editorial portrait, textured waffle-knit crewneck sweater, soft sculptural lighting, Leica M Monochrom. |
+| `dualtone_crimson_cyan` | **Cinematic Dual-Tone Studio (Crimson & Cyan)** | `4:5` | Inky black studio void, split crimson-red and cyan-blue rim lights, high popped-collar coat, silver chain. |
 | `editorial_forbes` | **Bespoke Executive Editorial** | `4:5` | Midnight-navy Italian wool tailoring, high-rise architectural backdrop, twilight cityscape bokeh, Hasselblad 100mm. |
 | `cinestill_vintage` | **Vintage 35mm Cinestill 800T** | `3:2` | Candid 1980s night street aesthetic, red tungsten halation blooms, authentic analog film grain. |
 | `cyberpunk_neon` | **Neo-Noir Cyberpunk** | `16:9` | High-contrast cyan and neon magenta ambient lights, rain-slicked skin, Tokyo night alleyway bokeh. |

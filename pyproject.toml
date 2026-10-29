@@ -3,17 +3,21 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "portrait-generator"
+name = "studioportraits"
 version = "1.0.0"
 authors = [
-  { name = "Portrait Generator Open Source Contributors" },
+  { name = "Mir Hazar Khan", email = "mirhazarkhanchandio@gmail.com" },
 ]
-description = "An open-source AI portrait generation pipeline and biometric calibration toolkit."
+description = "An open-source AI studio headshot & portrait generation pipeline with biometric calibration."
 readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "MIT" }
 classifiers = [
     "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
     "Topic :: Multimedia :: Graphics",
@@ -27,6 +31,12 @@ dependencies = [
     "streamlit>=1.30.0",
 ]
 
+[project.urls]
+Homepage = "https://github.com/MirhazarKhan/studioportraits"
+Documentation = "https://github.com/MirhazarKhan/studioportraits#readme"
+Repository = "https://github.com/MirhazarKhan/studioportraits.git"
+"Bug Tracker" = "https://github.com/MirhazarKhan/studioportraits/issues"
+
 [project.optional-dependencies]
 dev = [
     "pytest>=7.4.0",
@@ -36,4 +46,5 @@ dev = [
 ]
 
 [project.scripts]
+studioportraits = "main:main"
 portrait-generator = "main:main"
