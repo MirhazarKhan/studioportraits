@@ -1,0 +1,116 @@
+# ==========================================
+# Portrait Generator - Open Source .gitignore
+# ==========================================
+
+# 1. Private Personal Subject Directories
+# (Strictly protect private identity archives)
+/Mudassir/
+/Dr Imran/
+/Abid Bhai/
+/momina/
+/shiza/
+/generated_portraits/
+/reference_images/
+
+# 2. Raw Personal Photos & Image Dumps in Root & Subdirs
+*.heic
+*.HEIC
+*.tif
+*.TIF
+*.tiff
+*.TIFF
+*.jpg
+*.jpeg
+*.JPG
+*.JPEG
+*.png
+*.PNG
+*.webp
+*.WEBP
+*.zip
+*.tar.gz
+
+# Allow documentation and template assets only
+!assets/**/*.png
+!assets/**/*.jpg
+!assets/**/*.svg
+!docs/**/*.png
+!docs/**/*.jpg
+!docs/**/*.svg
+
+# 3. Local Inputs & Outputs
+/inputs/*
+!/inputs/.gitkeep
+!/inputs/sample_subject/
+!/inputs/sample_subject/README.md
+/outputs/*
+!/outputs/.gitkeep
+
+# 4. Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.token
+credentials.json
+
+# 5. Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# 6. Testing, Quality & Logs
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+*.log
+
+# 7. IDE & Editor Artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# 8. OS System Files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
