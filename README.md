@@ -1,13 +1,13 @@
-# 🎨 AI Portrait Generator
+# 📸 StudioPortraits - AI Studio Headshots & Portrait Generator
 
 [![Python Version](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![Privacy First](https://img.shields.io/badge/Privacy-100%25%20Local-success.svg)](SECURITY.md)
 
-An open-source AI portrait generation pipeline and biometric calibration toolkit. Transform everyday reference photos into calibrated multi-angle crops, structured biometric facial profiles, and production-ready stylized portraits.
+An open-source AI studio portrait generator that transforms everyday photos into professional studio headshots, executive portraits, and stylized avatars.
 
-Whether you are crafting **gritty chiaroscuro cinematic characters**, **3D minimalist vinyl designer toys**, **timeless monochrome studio fine art**, or **official biometric passport photos**, this toolkit gives you consistent facial likeness and reproducible aesthetics.
+Whether you are crafting **executive LinkedIn business headshots**, **gritty chiaroscuro cinematic characters**, **3D minimalist vinyl designer toys**, **timeless monochrome studio fine art**, or **official biometric passport photos**, this toolkit gives you consistent facial likeness and reproducible aesthetics.
 
 ---
 
@@ -47,8 +47,8 @@ flowchart LR
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/portrait-generator.git
-cd portrait-generator
+git clone https://github.com/MirhazarKhan/studioportraits.git
+cd studioportraits
 
 # Create and activate virtual environment
 python -m venv .venv
