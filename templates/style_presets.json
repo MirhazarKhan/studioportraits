@@ -80,6 +80,15 @@
     "cfg_scale": 7.0,
     "steps": 40
   },
+  "executive_windowpane_suit": {
+    "name": "Bespoke Executive (Windowpane Check Suit & Open Collar)",
+    "description": "Sophisticated modern C-suite executive portrait seated in a tailored subtle windowpane check suit jacket, open-collar white shirt, black luxury dive watch, and soft directional studio lighting on an inky charcoal backdrop.",
+    "prompt_template": "Authentic, photorealistic executive portrait of {subject_name}, {biometric_description}. Waist-up composition seated leaning slightly forward, body angled three-quarters, hands resting relaxed across the lap, right wrist featuring a luxury black dive watch with black rotating bezel. Wearing a tailored charcoal-navy subtle windowpane check wool suit jacket over a crisp white open-collar dress shirt. Soft directional studio key light creating natural facial modeling with un-airbrushed skin texture and realistic specular highlights, velvety deep charcoal backdrop with soft falloff. Hasselblad H6D-100c with HC 100mm f/2.2 lens, pin-sharp focus on eyes and glasses, Forbes executive editorial photography, 8k resolution.",
+    "negative_prompt": "tie, bowtie, distorted hands, extra fingers, cartoon, 3d render, plastic skin, oversaturated, blurry, bad anatomy",
+    "recommended_aspect_ratio": "4:5",
+    "cfg_scale": 7.0,
+    "steps": 40
+  },
   "cinestill_vintage": {
     "name": "Vintage 35mm Film - Cinestill 800T",
     "description": "Atmospheric cinematic 1980s film portrait with characteristic red halation around highlights and warm tungsten ambience.",
