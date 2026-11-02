@@ -89,6 +89,15 @@
     "cfg_scale": 7.0,
     "steps": 40
   },
+  "fineart_chiaroscuro_slit": {
+    "name": "Dramatic Fine-Art Chiaroscuro (Horizontal Slit Lighting)",
+    "description": "Intense high-contrast black-and-white fine-art portrait featuring a dramatic horizontal beam of light slicing across the eyes and bridge of the nose, with the lower face receding into deep velvety chiaroscuro shadows against a light grey studio wall.",
+    "prompt_template": "Striking fine-art black-and-white chiaroscuro studio portrait of {subject_name}, {biometric_description}. Frontal headshot composition, looking intensely directly into camera. Dramatic horizontal slit-light beam cutting across the eyes and bridge of the nose, leaving forehead and lower jawline submerged in deep velvety black shadows. Wearing a simple black crewneck shirt blending into the dark base, set against a seamless pale grey studio wall. Shot on Leica M Monochrom with Summilux 50mm f/1.4 ASPH lens, authentic Kodak Tri-X 400 silver gelatin film grain, razor-sharp focus on the illuminated irises and skin micropores, iconic fine-art photography, 8k resolution.",
+    "negative_prompt": "color, sepia, washed out, low contrast, flat lighting, blurry, extra eyes, deformed face, cartoon, 3d render",
+    "recommended_aspect_ratio": "9:16",
+    "cfg_scale": 8.0,
+    "steps": 40
+  },
   "cinestill_vintage": {
     "name": "Vintage 35mm Film - Cinestill 800T",
     "description": "Atmospheric cinematic 1980s film portrait with characteristic red halation around highlights and warm tungsten ambience.",

@@ -22,6 +22,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - `executive_blue_suit`: Modern Executive / GQ Editorial (Royal Blue Suit, Open Collar & Steel Watch).
   - `corporate_executive_suit`: Classic Corporate Executive (Navy Suit, Light Blue Shirt, Silk Tie & Folded Arms).
   - `executive_windowpane_suit`: Bespoke Windowpane Check Executive (Charcoal Windowpane Suit, Open Collar & Dive Watch).
+  - `fineart_chiaroscuro_slit`: Dramatic Fine-Art Chiaroscuro (Horizontal/Diagonal Slit Lighting across Eyes).
   - `cinestill_vintage`: Vintage 35mm Cinestill 800T Film with authentic halation.
   - `cyberpunk_neon`: Neo-Noir Cyberpunk with dual-tone anamorphic reflections.
   - `passport_biometric`: Official ICAO-compliant studio passport portraiture.
