@@ -132,6 +132,7 @@ python main.py generate --style studio_monochrome --profile outputs/subject/faci
 | `dualtone_crimson_cyan` | **Cinematic Dual-Tone Studio (Crimson & Cyan)** | `4:5` | Inky black studio void, split crimson-red and cyan-blue rim lights, high popped-collar coat, silver chain. |
 | `editorial_forbes` | **Bespoke Executive Editorial** | `4:5` | Midnight-navy Italian wool tailoring, high-rise architectural backdrop, twilight cityscape bokeh, Hasselblad 100mm. |
 | `executive_blue_suit` | **Modern Executive / GQ Editorial** | `4:5` | Seated pose in royal blue tailored suit, open-collar white shirt, luxury steel dive watch, dark charcoal backdrop. |
+| `corporate_executive_suit` | **Classic Corporate Executive** | `4:5` | Folded-arms corporate headshot in navy blue suit, light blue shirt, micro-textured silk tie, stainless steel dress watch. |
 | `cinestill_vintage` | **Vintage 35mm Cinestill 800T** | `3:2` | Candid 1980s night street aesthetic, red tungsten halation blooms, authentic analog film grain. |
 | `cyberpunk_neon` | **Neo-Noir Cyberpunk** | `16:9` | High-contrast cyan and neon magenta ambient lights, rain-slicked skin, Tokyo night alleyway bokeh. |
 | `passport_biometric` | **Official Biometric Studio** | `1:1` | Clean even dual-softbox lighting, neutral off-white background, ICAO biometric compliance. |

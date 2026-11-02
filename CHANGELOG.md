@@ -20,6 +20,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - `dualtone_crimson_cyan`: Cinematic Dual-Tone Studio with split crimson-red and cyan-blue rim lights.
   - `editorial_forbes`: Bespoke Executive / Forbes Editorial with high-rise architectural backdrop.
   - `executive_blue_suit`: Modern Executive / GQ Editorial (Royal Blue Suit, Open Collar & Steel Watch).
+  - `corporate_executive_suit`: Classic Corporate Executive (Navy Suit, Light Blue Shirt, Silk Tie & Folded Arms).
   - `cinestill_vintage`: Vintage 35mm Cinestill 800T Film with authentic halation.
   - `cyberpunk_neon`: Neo-Noir Cyberpunk with dual-tone anamorphic reflections.
   - `passport_biometric`: Official ICAO-compliant studio passport portraiture.

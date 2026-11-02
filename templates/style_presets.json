@@ -71,6 +71,15 @@
     "cfg_scale": 7.5,
     "steps": 40
   },
+  "corporate_executive_suit": {
+    "name": "Classic Corporate Executive (Navy Suit, Light Blue Shirt & Tie)",
+    "description": "Timeless C-suite corporate executive headshot with crossed arms pose in a tailored navy blue suit, light blue dress shirt, textured dark tie, stainless steel dress watch, and soft studio lighting against a dark slate backdrop.",
+    "prompt_template": "Authentic, photorealistic executive corporate portrait of {subject_name}, {biometric_description}. Three-quarter waist-up composition with arms folded across chest, right wrist showing a luxury stainless steel watch beneath the shirt cuff, left hand resting on forearm. Wearing a tailored classic navy blue wool suit jacket, light blue collared dress shirt, and a dark charcoal micro-textured silk tie. Soft, professional dual-softbox studio lighting sculpting facial contours with natural skin pores and realistic specular sheen, dark charcoal slate backdrop with subtle ambient falloff. Shot on Canon EOS R5 with RF 85mm f/1.2L lens, pin-sharp focus on eyes, authentic un-airbrushed skin texture, corporate editorial photography, 8k resolution.",
+    "negative_prompt": "airbrushed, plastic skin, CGI, 3d render, cartoon, oversaturated, deformed hands, extra fingers, blurry, doll skin, flat lighting",
+    "recommended_aspect_ratio": "4:5",
+    "cfg_scale": 7.0,
+    "steps": 40
+  },
   "cinestill_vintage": {
     "name": "Vintage 35mm Film - Cinestill 800T",
     "description": "Atmospheric cinematic 1980s film portrait with characteristic red halation around highlights and warm tungsten ambience.",
