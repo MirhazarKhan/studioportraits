@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - `vinyl_toy_porcelain`: 3D Minimalist Vinyl Toy Avatar (Porcelain Edition).
   - `studio_monochrome`: Cinematic Low-Key Monochrome Studio with Rembrandt split lighting.
   - `editorial_monochrome_knit`: Fine-Art Monochrome Studio (Waffle Knit & Folded Arms pose).
+  - `street_monochrome_sunglasses`: High-Contrast Street Editorial (Sunglasses, Clasped Hands & Harrington Jacket).
   - `dualtone_crimson_cyan`: Cinematic Dual-Tone Studio with split crimson-red and cyan-blue rim lights.
   - `editorial_forbes`: Bespoke Executive / Forbes Editorial with high-rise architectural backdrop.
   - `cinestill_vintage`: Vintage 35mm Cinestill 800T Film with authentic halation.

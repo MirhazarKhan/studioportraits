@@ -44,6 +44,15 @@
     "cfg_scale": 7.0,
     "steps": 35
   },
+  "street_monochrome_sunglasses": {
+    "name": "High-Contrast Street Editorial (Sunglasses & Harrington Jacket)",
+    "description": "Candid outdoor black-and-white editorial portrait with hard natural sunlight, clasped hands pose, dark sunglasses, Harrington jacket, and architectural concrete wall.",
+    "prompt_template": "Gritty high-contrast black-and-white candid street editorial portrait of {subject_name}, {biometric_description}. Seated leaning forward in a three-quarter angle, gazing thoughtfully off to the side, both hands clasped together in front of the chest in a contemplative gesture. Wearing classic black retro Wayfarer sunglasses with dark tinted lenses, a dark zip-up Harrington blouson jacket layered over a crisp white crewneck t-shirt, and washed denim jeans. Strong direct sunlight casting bold architectural shadows across a textured concrete wall backdrop. Shot on Leica M Monochrom with Summilux-M 50mm f/1.4 ASPH lens, Kodak Tri-X 400 silver gelatin film grain, high dynamic range, sharp textural details, masterclass editorial photography, 8k resolution.",
+    "negative_prompt": "color, sepia, washed out, flat lighting, deformed hands, extra fingers, cartoon, 3d render, blurry, distorted face",
+    "recommended_aspect_ratio": "4:5",
+    "cfg_scale": 7.5,
+    "steps": 40
+  },
   "editorial_forbes": {
     "name": "Bespoke Executive / Forbes Editorial",
     "description": "High-powered corporate editorial portrait with sharp bespoke tailoring and high-rise architectural backdrop.",
