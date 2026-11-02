@@ -6,6 +6,7 @@ Supports multi-provider synthesis (Google GenAI, OpenAI, Stability) and prompt e
 from __future__ import annotations
 
 import json
+import re
 from pathlib import Path
 from typing import Optional, List, Dict, Any, Union
 from pydantic import BaseModel
@@ -50,10 +51,11 @@ class PortraitGenerator:
         out_path = Path(output_dir)
         out_path.mkdir(parents=True, exist_ok=True)
 
-        bundle_base = out_path / f"{profile.subject_name.lower().replace(' ', '_')}_{compiled.style_id}"
+        clean_name = re.sub(r"[^\w\-]", "_", profile.subject_name.lower()).strip("_")
+        bundle_base = out_path / f"{clean_name}_{compiled.style_id}"
 
         # 1. Save standard text prompt
-        txt_file = bundle_base.with_suffix(".txt")
+        txt_file = out_path / f"{bundle_base.name}.txt"
         txt_content = (
             f"=== POSITIVE PROMPT ===\n{compiled.positive_prompt}\n\n"
             f"=== NEGATIVE PROMPT ===\n{compiled.negative_prompt}\n\n"
@@ -62,7 +64,7 @@ class PortraitGenerator:
         txt_file.write_text(txt_content, encoding="utf-8")
 
         # 2. Save structured JSON metadata
-        json_file = bundle_base.with_suffix(".json")
+        json_file = out_path / f"{bundle_base.name}.json"
         json_data = {
             "subject": profile.subject_name,
             "style": compiled.style_id,
