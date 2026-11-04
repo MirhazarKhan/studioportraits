@@ -142,5 +142,14 @@
     "recommended_aspect_ratio": "4:5",
     "cfg_scale": 7.5,
     "steps": 40
+  },
+  "lowkey_chiaroscuro_profile": {
+    "name": "Dramatic Low-Key Monochrome Studio (Directional Profile Lighting)",
+    "description": "Intense, brooding fine-art black-and-white studio portrait in a three-quarter profile pose, directional side key lighting sculpting facial features against a pitch-black void backdrop.",
+    "prompt_template": "Striking fine-art black-and-white studio portrait of {subject_name}, {biometric_description}. Three-quarter profile headshot composition, head turned gracefully, gaze directed contemplatively off-camera. Dramatic low-key directional studio key lighting from the side sculpting cheekbone, nasal bridge, and jawline with smooth delicate specular highlights, casting the opposite side and neck into velvety deep chiaroscuro shadows. Simple black crewneck t-shirt seamlessly merging into pure pitch-black void backdrop. Shot on Leica M Monochrom with APO-Summicron-M 75mm f/2 ASPH lens, authentic Kodak Tri-X 400 silver gelatin film grain, pin-sharp focus on the illuminated eye and skin micropores, masterclass editorial photography, 8k resolution.",
+    "negative_prompt": "color, sepia, full beard, heavy beard, spectacles, eyeglasses, hollow cheeks, gaunt face, sunken eyes, aging wrinkles, cartoon, 3d render, CGI, airbrushed plastic skin, oversaturated, blurry, flat lighting",
+    "recommended_aspect_ratio": "4:5",
+    "cfg_scale": 8.0,
+    "steps": 40
   }
 }
