@@ -133,5 +133,14 @@
     "recommended_aspect_ratio": "1:1",
     "cfg_scale": 6.5,
     "steps": 30
+  },
+  "windswept_three_piece_suit": {
+    "name": "Outdoor Cinematic Editorial (Windswept Three-Piece Suit & Joyful Walk)",
+    "description": "Candid, joyful outdoor cinematic editorial portrait walking forward on a lush green lawn in a tailored black three-piece suit, open-collar white shirt, windswept hair, and radiant smile.",
+    "prompt_template": "Ultra-photorealistic cinematic outdoor editorial portrait of {subject_name}, {biometric_description}. Three-quarter composition walking forward mid-stride with joyful energy across an open lush green meadow lawn. Radiant, authentic open-mouthed laughter and smile showing clean natural upper teeth, joyful crinkling around the eyes. Thick dense jet black hair tousled and windswept dynamically in the breeze. Wearing a bespoke tailored black wool three-piece suit with unbuttoned jacket billowing gently in motion, buttoned matching black waistcoat/vest, and a crisp white dress shirt with an unbuttoned open collar revealing the upper neckline, no tie. Soft diffuse overcast natural daylight providing natural wrap-around lighting, shallow depth of field with the rich green background softly blurred. Shot on Canon EOS R5 with RF 85mm f/1.4L lens, authentic organic 35mm film grain, muted cinematic grading, 8k resolution, Masterpiece.",
+    "negative_prompt": "full beard, heavy beard, spectacles, eyeglasses, closed mouth, somber expression, frown, stiff pose, indoor, airbrushed plastic skin, cartoon, 3d render, oversaturated, blurry, bad anatomy",
+    "recommended_aspect_ratio": "4:5",
+    "cfg_scale": 7.5,
+    "steps": 40
   }
 }
